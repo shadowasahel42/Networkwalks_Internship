@@ -44,7 +44,7 @@ The laboratory operates on a private virtual network, allowing additional virtua
 
 I accessed **File > Tools > Network** in VirtualBox and navigated to the **NAT Networks** tab. I created a network named `NatNetwork`, configured its IPv4 prefix as `10.0.0.0/24`, and enabled DHCP for automatic IP address assignment.
 
-![NAT Network Setup](screenshots/nat-network.png)
+![NAT Network Setup](network.png)
 
 ### Configuring Kali VM Network Settings
 
@@ -52,7 +52,7 @@ I selected the Kali Linux virtual machine and navigated to **Settings > Network*
 
 Under **Advanced**, I configured Promiscuous Mode to **Allow All**, enabling the virtual machine to capture network traffic permitted by the virtual network configuration.
 
-![Kali Network Settings](screenshots/kali-network.png)
+![Kali Network Settings](x.png)
 
 *Note: Kali Linux and VirtualBox were already installed before this project. Therefore, the work focused on configuration rather than installation.*
 
@@ -68,7 +68,7 @@ Under **System > Motherboard**, I configured the allocated memory to 504 MB. Und
 
 I also verified that **Enable Nested Paging** was enabled under Acceleration and increased the allocated video memory under Display to improve graphical performance.
 
-![System Settings](screenshots/system-settings.png)
+![System Settings](clipboard.png)
 
 ### Configuring Shared Folders and Clipboard
 
