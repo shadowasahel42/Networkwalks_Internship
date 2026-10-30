@@ -12,7 +12,7 @@ The objective is to establish a controlled environment for conducting security a
 
 The laboratory operates on a private virtual network, allowing additional virtual machines to be introduced as targets for security testing.
 
----
+
 
 ## Lab Requirements
 
